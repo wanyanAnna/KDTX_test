@@ -1,0 +1,18 @@
+INFO     logger:method_request.py:61 接口请求的params数据是>>>
+{
+  "name": null,
+  "subject": null,
+  "price": null,
+  "applicablePerson": null,
+  "info": null
+}
+INFO     logger:method_request.py:62 接口请求的地址>>>
+http://kdtx-test.itheima.net/api/clues/course/list
+INFO     logger:method_request.py:63 接口请求的方法>>>
+Get
+INFO     logger:api.py:44 接口返回内容>>>>
+{
+  "msg": "请求访问：/clues/course/list，认证失败，无法访问系统资源",
+  "code": 401
+}
+INFO     logger:conftest.py:14 测试用例执行结束

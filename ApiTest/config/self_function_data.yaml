@@ -1,0 +1,7 @@
+person:
+  - name: random_name()
+    age: age()
+    sex: 女
+  - name: random_name()
+    age: age()
+    sex: 男

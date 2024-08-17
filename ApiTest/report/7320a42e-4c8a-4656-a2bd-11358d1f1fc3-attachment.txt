@@ -1,0 +1,18 @@
+INFO     logger:method_request.py:40 接口请求的json数据是>>>
+{
+  "username": "admin",
+  "password": "HM_2023_test",
+  "code": 2,
+  "uuid": "3dfb7cb16fe54e38b67261f2283d0379"
+}
+INFO     logger:method_request.py:43 接口请求的地址>>>
+http://kdtx-test.itheima.net/api/login
+INFO     logger:method_request.py:44 接口请求的方法>>>
+Post
+INFO     logger:api.py:29 接口返回内容>>>>
+{
+  "msg": "操作成功",
+  "code": 200,
+  "userId": 1,
+  "token": "eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjAyNGZmOTgxLWQ2N2UtNDZmZS1hZmY0LWM3NzYwN2JkYWMyMiJ9._BozNDh7YMqTTEKx8uQOVIKcxo1mMFH6t_dBTtqe0h0wPhOs3MewrT6-N9y98vCKlYUot6MokAcKlGlHZAoB9g"
+}

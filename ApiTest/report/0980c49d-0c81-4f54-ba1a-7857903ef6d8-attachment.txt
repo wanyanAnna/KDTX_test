@@ -1,0 +1,23 @@
+INFO     logger:method_request.py:44 接口请求的地址>>>
+http://kdtx-test.itheima.net/api/captchaImage
+INFO     logger:method_request.py:45 接口请求的方法>>>
+Get
+INFO     logger:conftest.py:12 开始执行测试用例
+INFO     logger:method_request.py:41 接口请求的json数据是>>>
+{
+  "username": "admin",
+  "password": "HM_2023_test",
+  "code": 2,
+  "uuid": "ab55f23c0fd5428e94c7aa573df5fe7a"
+}
+INFO     logger:method_request.py:44 接口请求的地址>>>
+http://kdtx-test.itheima.net/api/login
+INFO     logger:method_request.py:45 接口请求的方法>>>
+Post
+INFO     logger:api.py:29 接口返回内容>>>>
+{
+  "msg": "操作成功",
+  "code": 200,
+  "userId": 1,
+  "token": "eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6ImIyMTViNGQ1LTI4MTktNDE5MC1hMjFhLTFlY2NjZTAxMjAyNCJ9.AyF8MpPWPyQsjJO3jclBbDqNluMYnEReGdf-5BPa24EYE5-lmZvRwzop0EIrD_POKUl6Aq0A559JQQ67TzM9uQ"
+}

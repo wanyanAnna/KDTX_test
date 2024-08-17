@@ -1,0 +1,19 @@
+INFO     logger:method_request.py:59 接口请求的json数据是>>>
+{
+  "id": "100",
+  "name": "\u63a5\u53e3\u6d4b\u8bd5001",
+  "subject": 6,
+  "price": 800,
+  "applicablePerson": 3,
+  "info": "\u8bfe\u7a0b\u4ecb\u7ecd001"
+}
+INFO     logger:method_request.py:62 接口请求的地址>>>
+http://kdtx-test.itheima.net/api/clues/course
+INFO     logger:method_request.py:63 接口请求的方法>>>
+Put
+INFO     logger:api.py:44 接口返回内容>>>>
+{
+  "msg": "请求访问：/clues/course，认证失败，无法访问系统资源",
+  "code": 401
+}
+INFO     logger:conftest.py:14 测试用例执行结束

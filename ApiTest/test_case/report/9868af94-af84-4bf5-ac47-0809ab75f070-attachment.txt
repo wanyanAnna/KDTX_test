@@ -1,0 +1,9 @@
+INFO     logger:method_request.py:62 接口请求的地址>>>
+http://kdtx-test.itheima.net/api/clues/course/
+INFO     logger:method_request.py:63 接口请求的方法>>>
+Del
+INFO     logger:api.py:44 接口返回内容>>>>
+{
+  "msg": "Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long[]'; nested exception is java.lang.NumberFormatException: For input string: \"a\"",
+  "code": 500
+}

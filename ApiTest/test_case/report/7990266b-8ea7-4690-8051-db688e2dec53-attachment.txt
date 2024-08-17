@@ -1,0 +1,18 @@
+INFO     logger:method_request.py:52 接口请求的json数据是>>>
+{
+  "id": "55555555",
+  "name": "\u8f6f\u4ef6\u5f00\u53d1\u8bfe01",
+  "subject": 6,
+  "price": 999,
+  "applicablePerson": 3,
+  "info": ""
+}
+INFO     logger:method_request.py:55 接口请求的地址>>>
+http://kdtx-test.itheima.net/api/clues/course
+INFO     logger:method_request.py:56 接口请求的方法>>>
+Put
+INFO     logger:api.py:39 接口返回内容>>>>
+{
+  "msg": "操作失败",
+  "code": 500
+}

@@ -1,0 +1,10 @@
+INFO     logger:method_request.py:62 接口请求的地址>>>
+http://kdtx-test.itheima.net/api/clues/course/
+INFO     logger:method_request.py:63 接口请求的方法>>>
+Del
+INFO     logger:api.py:44 接口返回内容>>>>
+{
+  "msg": "操作失败",
+  "code": 500
+}
+INFO     logger:conftest.py:14 测试用例执行结束

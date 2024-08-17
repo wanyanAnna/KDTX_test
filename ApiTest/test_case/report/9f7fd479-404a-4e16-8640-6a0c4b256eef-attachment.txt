@@ -1,0 +1,18 @@
+INFO     logger:method_request.py:52 接口请求的json数据是>>>
+{
+  "id": "a",
+  "name": "\u6d4b\u8bd5\u5f00\u53d1\u63d0\u5347\u8bfe01",
+  "subject": 8,
+  "price": 999,
+  "applicablePerson": 3,
+  "info": ""
+}
+INFO     logger:method_request.py:55 接口请求的地址>>>
+http://kdtx-test.itheima.net/api/clues/course
+INFO     logger:method_request.py:56 接口请求的方法>>>
+Put
+INFO     logger:api.py:39 接口返回内容>>>>
+{
+  "msg": "JSON parse error: Cannot deserialize value of type `java.lang.Long` from String \"a\": not a valid Long value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.lang.Long` from String \"a\": not a valid Long value\n at [Source: (PushbackInputStream); line: 1, column: 8] (through reference chain: com.huike.clues.domain.TbCourse[\"id\"])",
+  "code": 500
+}

@@ -1,0 +1,17 @@
+INFO     logger:method_request.py:45 接口请求的json数据是>>>
+{
+  "name": "\u8f6f\u4ef6\u5f00\u53d1\u8bfe01",
+  "subject": 66,
+  "price": 999,
+  "applicablePerson": 3,
+  "info": ""
+}
+INFO     logger:method_request.py:48 接口请求的地址>>>
+http://kdtx-test.itheima.net/api/clues/course
+INFO     logger:method_request.py:49 接口请求的方法>>>
+Post
+INFO     logger:api.py:35 接口返回内容>>>>
+{
+  "msg": "\n### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'subject' at row 1\n### The error may exist in URL [jar:file:/root/kdtx/huike-admin.jar!/BOOT-INF/lib/huike-clues-3.4.0.jar!/mapper/clues/TbCourseMapper.xml]\n### The error may involve com.huike.clues.mapper.TbCourseMapper.insertTbCourse-Inline\n### The error occurred while setting parameters\n### SQL: insert into tb_course          ( code,             name,             subject,             price,             applicable_person,             info,             create_time )           values ( ?,             ?,             ?,             ?,             ?,             ?,             ? )\n### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'subject' at row 1\n; Data truncation: Data too long for column 'subject' at row 1; nested exception is com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'subject' at row 1",
+  "code": 500
+}
