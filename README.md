@@ -4,3 +4,5 @@
 * 接口自动化测试框架：pytest
 * http请求发送：requests
 * 测试报告：allure-pytest
+#### kdtx_xmind
+此文件夹包含测试点（.xmind）和测试用例（.xls）,以及接口文档
