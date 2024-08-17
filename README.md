@@ -12,4 +12,8 @@
 * `#..test_case`文件下存放的测试用例，包括`.login_center`登录接口,`.add_center`增加课程接口,`.del_center`删除课程接口,`.modify_center`修改课程接口，`.search_center`查询课程接口。`.conftest`存放前置步骤fixture解决接口参数的关联。
 * `..utils`文件夹下`.api_utils`存放**所有的的接口URL地址**，后续可继续进行添加测试接口
 * `..method_config`文件夹下`.method_request.py`存放了**所有的请求方法**,包含get,post,delete,put.
+* `.pytest.ini`文件下配置指定测试文件的目录，以及生成allure_report的目录
 * `.allure-report`下存放**测试结果**，终端输入`allure serve report`，可启动本地的一个web服务，生成一份美观的网页测试报告
+### 运行结果
+终端执行pytest，结果如下：
+`<====== 11 failed, 16 passed, 2 warnings in 35.29s ==>`
