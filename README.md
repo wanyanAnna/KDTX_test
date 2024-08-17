@@ -8,4 +8,5 @@
 此文件夹包含测试点（.xmind）和测试用例（.xls）,以及接口文档
 #### ApiTest
 接口自动化测试脚本
-* `#..config`文件夹下的data.yaml 对测试用例进行管理，通过读取yaml的数据后当做接口的参数进行传参
+* `#..config`文件夹下的data.yaml 对测试数据进行管理，通过读取yaml的数据后当做接口的参数进行传参；settings.ini 存放测试网站的域名，便于后续更改。
+* `#..test_case`文件下存放的测试用例，包括`.login_center`登录接口,`.add_center`增加课程接口,`.del_center`删除课程接口,`.modify_center`修改课程接口，`.search_center`查询课程接口。
